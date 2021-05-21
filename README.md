@@ -3,11 +3,11 @@
 This is a python implementation of synthetic experiment on spanning tree, where we compared GKAT with graph attention networks (GAT), graph convolutional networks (GCN)  and Chebyshev spectral graph convolution (SGC). We further compared deeper networks with a two-layer GKAT with different random walk lengths.
 
 
-# Requirements
+## Requirements
 This experiment depends on pytorch, as well as some other commonly used packages including numpy, networkx, etc.
 
 
-# Running the code
+## Running the code
  `graph_data`: this folder contains raw train/val networkx graph data and labels, as well as some already calculated frequency matrix and GKAT maksing generated with different random walk lengths
 
  `SpanTree_GKAT_2layer.ipynb`: this notebook file implements GKAT. 
